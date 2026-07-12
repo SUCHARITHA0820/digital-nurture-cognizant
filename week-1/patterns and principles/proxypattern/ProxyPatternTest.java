@@ -1,0 +1,16 @@
+package proxypattern;
+
+public class ProxyPatternTest {
+    public static void main(String[] args) {
+        Image image1 = new ProxyImage("photo1.png");
+        Image image2 = new ProxyImage("photo2.png");
+
+        image1.display();
+        System.out.println();
+
+        image1.display();
+        System.out.println();
+
+        image2.display();
+    }
+}
